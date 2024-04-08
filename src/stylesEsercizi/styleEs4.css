@@ -1,0 +1,45 @@
+.container {
+	display: flex;
+}
+
+.saveContainer {
+	height: 261px;
+	width: 215px;
+	margin-inline: 20px;
+	background-color: rgb(92, 92, 92);
+	border-radius: 8px;
+}
+
+.saveContainer div:hover{
+	cursor: pointer;
+}
+
+.calculatoreContainer {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.calculatoreContainer button {
+	width: 65px;
+	margin: 1px;
+}
+
+button[label="reset"] {
+	width: 199px;
+}
+
+.countContainer {
+	background-color: rgb(92, 92, 92);
+	border-radius: 8px;
+	height: 40px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+}
+
+button[label="Save"] {
+	width: 265px;
+}
